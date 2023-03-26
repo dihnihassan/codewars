@@ -5,7 +5,7 @@ const rps = (p1, p2) => {
 
 
 
-  if (p1 === p2 && p2 === p1){
+  if (p1 === p2){
     return "Draw!"
   };
 }
