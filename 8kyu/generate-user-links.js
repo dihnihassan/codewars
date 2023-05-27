@@ -3,7 +3,7 @@
 
 function generateLink(user) {
   
-  let urlEncode = encodeURIComponent(user)
+  let urlEncode = encodeURIComponent(user);
   
   let url = `http://www.codewars.com/users/${urlEncode}`;
   console.log(url);
