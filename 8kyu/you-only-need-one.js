@@ -7,14 +7,14 @@
 
 function check(a, x) {
   // your code here
-  
+
   console.log(a);
-  
+
   for (const value of a) {
     if (value === x)
       return true;
   }
-  
+
   return false;
-  
+
 }
